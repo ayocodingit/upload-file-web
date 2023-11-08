@@ -30,7 +30,7 @@ const onChange = async (e) => {
 
 <template>
   <div>
-    <h1>File Upload</h1>
+    <h1 class="text-red-700">File Upload</h1>
     <form>
       <label for="file">File: </label>
       <input type="file" name="file" @change="onChange" />
